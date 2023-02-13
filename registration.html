@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+
+<body>
+    <h1>Register here!!!</h1>
+    <!--Http methods GET,POST,PUT,PATCH,DELETE-->
+    <form action="" method="post" enctype="multipart/form-data">
+        <div>
+            <label for="id_firstname">First Name</label>
+            <input type="text" placeholder="Enter the first name" id="id_firstname" class="">
+        </div>
+
+        <div>
+            <label for="id_lastname">Lastname</label>
+            <input type="text" placeholder="Enter your Lastname" id="id_lastname">
+        </div>
+
+        <div>
+            <label for="id_email">Email</label>
+            <input type="email" placeholder="Enter your Email id" id="id_email">
+        </div>
+
+        <div>
+            <label for="id_password">Password</label>
+            <input type="password" placeholder="Enter your password" id="id_password" class="">
+        </div>
+
+        <div>
+            <label for="id_phonenumber">Phone Number</label>
+            <input type="text" placeholder="Enter phone Number" id="id_phonenumber">
+        </div>
+
+        <div>
+            <label for="">Gender</label>
+            <label for="id_male">Male</label>
+            <input type="radio" id="id_male" name="Gender">
+            <label for="id_female">Female</label>
+            <input type="radio" id="id_female" name="Gender">
+            <label for="id_other">Other</label>
+            <input type="radio" id="id_other" name="Gender">
+
+        </div>
+
+        <div>
+            <label for="">Language</label>
+            <select name="" id="">
+                <option value="">python</option>
+                <option value="">java</option>
+                <option value="">php</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="id_zip">Zip code</label>
+            <input type="text" placeholder="Enter zip " id="id_zip">
+        </div>
+
+        <div>
+            <label for="">About</label>
+            <textarea name="" id="" cols="20" rows="5"></textarea>
+        </div>
+
+        <div>
+            <label for="">Student image</label>
+            <input type="file">
+        </div>
+
+        <div>
+            <label for="">Skill range</label>
+            <input type="range" min="1" max="100" value="50">
+        </div>
+
+        <div>
+            <label for="">Language</label>
+            <input type="checkbox" id="id_cpp">c++
+            
+            <input type="checkbox" id="id_python">python
+            <input type="checkbox" id="id_java">java
+        </div>
+        <input type="submit" value="Register">
+    </form>
+</body>
+
+</html>
