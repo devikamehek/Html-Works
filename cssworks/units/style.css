@@ -1,0 +1,17 @@
+.parent{
+    border: 2px solid black;
+    height: 500px;
+    background-color: aquamarine;
+
+}
+
+.child{
+    border: 1px solid black;
+     width: 50%;
+     background-color: blue;
+}
+
+.child1{
+    background-color: brown;
+    width: 50vw;
+}
