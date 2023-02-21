@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+}
+
+.card {
+    width: 30%;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-header h2{
+    text-align: center;
+    color: white;
+    
+}
+
+.card-header{
+    background-color: gray;
+    padding: 20px;
+   
+}
+.card:nth-child(2) .card-header{
+    background-color: red;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-item{
+    text-align: left;
+}
