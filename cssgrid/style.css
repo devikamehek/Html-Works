@@ -1,0 +1,63 @@
+.container{
+    width: 80%;
+    margin: auto;
+    height: 400px;
+    border: 1px solid black;
+}
+
+.row{
+    /* for 2d styling  */
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-column-gap:10px ;
+    grid-template-rows: 100px 200px;
+    grid-row-gap: 10px;
+    /* grid-gap: 20px; */
+    
+}
+
+
+/* use inspect and look layout we can find the row and coloum number */
+
+/* .col-1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+} */
+
+/* .col-5{
+    grid-column-start: 2;
+    grid-column-end: 4;
+} */
+
+/* .col-1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+} */
+
+.col{
+    border: 1px solid black;
+}
+
+.col:nth-child(1){
+    background-color: antiquewhite;
+}
+
+.col:nth-child(2){
+    background-color: aquamarine;
+}
+
+.col:nth-child(3){
+    background-color: teal;
+}
+
+.col:nth-child(4){
+    background-color: yellowgreen;
+}
+
+.col:nth-child(5){
+    background-color: pink;
+}
+
+.col:nth-child(6){
+    background-color: tomato;
+}
