@@ -1,0 +1,82 @@
+.container{
+    width: 50%;
+    margin: auto;
+    height: 400px;
+    border: 1px solid black;
+   
+    margin-top: 20px;
+    
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 30fr 100fr;
+ 
+    grid-template-rows: 400px ;
+    
+
+}
+
+.col:nth-child(1){
+    background-color: blue;
+}
+
+.col:nth-child(2){
+    background-color: white;
+}
+
+.about-me{
+    margin-top: 60px;
+    margin-left: 20px;
+    color: red;
+}
+
+.introduction{
+    margin-left: 20px;
+    
+}
+
+/* .birth1{
+    margin-top: 50px;
+} */
+
+.details{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.pgrm-details{
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+
+.name{
+  margin-top: 200px;
+  text-align: center;
+  color: white;
+  font-size: large;
+}
+
+.name-1{
+    margin-left: 45px;
+    margin-top: 5px;
+    color: white;
+}
+
+.details-1{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    font-size: small;
+    
+}
+
+ol{
+    list-style: none;
+}
+
+.logo{
+    color: white;
+}
+
