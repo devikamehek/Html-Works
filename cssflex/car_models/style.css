@@ -1,9 +1,11 @@
-*{
+* {
     margin: 0;
 }
-body{
+
+body {
     background-color: black;
 }
+
 .container {
     width: 80%;
     height: 500px;
@@ -14,7 +16,7 @@ body{
     margin-right: auto;
     margin-top: 20px;
     flex-wrap: wrap;
-   
+
 
 }
 
@@ -28,30 +30,31 @@ body{
     width: 100%;
 }
 
-.card-header h2{
+.card-header h2 {
     text-align: center;
     color: white;
-    
+
 }
 
-.card-header{
+.card-header {
     background-color: gray;
     padding: 20px;
-   
+
 }
-.card:nth-child(2) .card-header{
+
+.card:nth-child(2) .card-header {
     background-color: red;
 }
 
 
-.card-body p{
+.card-body p {
     text-align: center;
     font-size: 20px;
-    padding: 10px; 
+    padding: 10px;
 }
 
-.card-item{
-    
+.card-item {
+
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -59,19 +62,29 @@ body{
 
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-ul li{
+ul li {
     line-height: 25px;
-    
+
 }
 
-.fa-bookmark{
+.fa-bookmark {
     color: red;
     margin-right: 10px;
 
 }
 
-
+@media (max-width:750px)  {
+    .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .card{
+        width: 80%;
+    }
+    
+}

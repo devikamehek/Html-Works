@@ -1,0 +1,43 @@
+.row{
+    height: 200px;
+    border: 1px solid black;
+}
+
+.row-1,.row-4{
+    width: 80%;
+    margin: auto;
+}
+
+.row-1{
+    background-color: turquoise;
+}
+
+.row-4{
+    background-color: brown;
+}
+
+.row-2,.row-3{
+    width: 30%;
+
+}
+
+.row-2{
+    background-color: aquamarine;
+}
+
+.row-3{
+    background-color: blueviolet;
+}
+
+
+
+
+@media (max-width:750px) {
+
+  .row{
+    width: 80%;
+    margin: auto;
+    background-color: blue;
+    margin-top: 5px;
+  }
+}
