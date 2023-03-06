@@ -6,37 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>navigation bar</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg bg-info">
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg  bg-dark" data-bs-theme="dark">
         <div class="container"> 
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand fw-bolder" href="#" >Port<span class="text-danger">folio</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
+              <li class="nav-item ms-3">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+              <li class="nav-item ms-3">
+                <a class="nav-link active " href="#">AboutUs</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+              <li class="nav-item ms-3">
+                <a class="nav-link active" href="#">Services</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+              <li class="nav-item ms-3">
+                <a class="nav-link active" href="#">Skills</a>
               </li>
+              
+              
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -45,5 +43,51 @@
           </div>
         </div>
       </nav>
+
+
+
+
+
+
+      <div class="container" data-bs-theme="dark">
+        <div class="row mt-3">
+          <div class="col-6  position-relative">
+
+
+            <div class="position-absolute top-50  fs  top-lg-50 top-lg-0 top-md-50">
+            <h4  >Hello, My name is </h4>
+            <h1 class="fw-bolder"><span class="text-danger">M</span>runalsen</h1>
+            <h4>I'am a backEnd devoloper </h4>
+            </div>
+
+
+          </div>
+          <div class="col-6 "><img src="https://media.istockphoto.com/id/1305455220/photo/millennial-student-with-books-having-creative-idea-showing-eureka-gesture-experiencing-aha.jpg?s=612x612&w=0&k=20&c=L0yQD915rPsDFJZCZp6wsAPNXrXOz3WrJ4rdgus2Y3k=" alt=""></div>
+        </div>
+      </div>
+
+
+
+
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-6 mt-5">
+            <img src="https://media.istockphoto.com/id/1305455220/photo/millennial-student-with-books-having-creative-idea-showing-eureka-gesture-experiencing-aha.jpg?s=612x612&w=0&k=20&c=L0yQD915rPsDFJZCZp6wsAPNXrXOz3WrJ4rdgus2Y3k=" alt="">
+          </div>
+          <div class="col-6">
+            <div class="text-light mt-5 fs ">
+              <h1 class="fw-bolder">About me</h1>
+              <h4 class="mt-3">Devoloper <span class="text-danger">and Designer</span> </h4>
+              <h5 class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ab veniam quaerat labore, illo iste suscipit quae facilis maiores nam! Perspiciatis magnam sed porro laudantium veniam velit asperiores ipsam? Soluta! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis praesentium accusantium vel, dicta iure exercitationem! Fugit impedit, nulla a ipsum optio vitae quis exercitationem sequi pariatur, consectetur magni ullam ratione.</h5>
+              <div><button class="btn btn-danger mt-3 rounded-pill">Lets talk</button></div>
+            </div>
+          </div> 
+        </div>
+      </div>
+
+
+      
 </body>
 </html>
